@@ -102,20 +102,7 @@ octoinv.addShopItem('ing_potatomash', { cat = 'ings', price = 400 })
 octoinv.addShopItem('ing_soup', { cat = 'ings', price = 135 })
 octoinv.addShopItem('ing_dough3', { cat = 'ings', price = 280 })
 
--- ready to eat
-octoinv.addShopItem('food_sosiskavteste', {
-	cat = 'food', price = 250,
-	name = L.sosiskavteste,
-	icon = 'octoteam/icons/food_meal2.png',
-	item = 'food',
-	data = {
-		name = L.sosiskavteste,
-		icon = 'octoteam/icons/food_meal2.png',
-		energy = 55,
-		maxenergy = 55,
-		trash = false,
-	},
-})
+
 
 octoinv.addShopItem('food_chocolate', {
 	cat = 'food', price = 150,

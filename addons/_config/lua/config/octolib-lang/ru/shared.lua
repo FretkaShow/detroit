@@ -1624,7 +1624,7 @@ L.chocolate = 'Шоколадка'
 L.chips = 'Чипсы'
 L.food_soda = 'Газировка'
 L.cream = 'Йогурт'
-L.sosiskavteste = 'Сосиска в тесте'
+
 L.crackers = 'Сухарики'
 L.meatcake = 'Пирожок с мясом'
 L.applepie = 'Яблочный пирог'
