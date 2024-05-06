@@ -11,7 +11,7 @@ command.immunity  = SERVERGUARD.IMMUNITY.LESSOREQUAL
 function command:Execute(admin, silent, arguments)
 	local target = util.FindPlayer(arguments[1], admin, true)
 	if admin == target then
-		admin:Notify('warning', 'Любишь быть в центре внимания?')
+		admin:Notify('warning', 'ВАЙ МАМА!! Тармазиии!! чо ахуел на себя WatchList смотреть?')
 		return
 	end
 	plugin:OpenEditor(admin, IsValid(target) and target:SteamID() or arguments[1])

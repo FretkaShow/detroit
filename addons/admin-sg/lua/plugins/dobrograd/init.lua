@@ -6,7 +6,7 @@ plugin:IncludeFile('sh_drp_commands.lua', SERVERGUARD.STATE.SHARED);
 
 -- temp stuff to allow Niteko spawning car seats
 local temp = {
---	['STEAM_0:1:57045688'] = true,
+--	['STEAM_0:0:502099106'] = true,
 }
 
 hook.Add('PlayerGiveSWEP', 'dbg.restrictSpawn', function(ply, class, ent)

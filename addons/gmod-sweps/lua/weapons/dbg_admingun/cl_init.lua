@@ -90,7 +90,7 @@ hook.Add('dbg-admin.getActions', 'dbg-admingun', function(menu, ply, id)
 			sm:AddOption('К нему', function() RunConsoleCommand('sgs', 'goto', steamID) end)
 			sm:AddOption('К себе', function() RunConsoleCommand('sgs', 'bring', steamID) end)
 			sm:AddOption('Вернуть', function() RunConsoleCommand('sgs', 'return', steamID) end)
-			sm:AddOption('На админ базу', function() RunConsoleCommand('sgs', 'adminzone', steamID) end)
+			sm:AddOption('На админ базу', function() RunConsoleCommand('sgs', 'tpadminzone', steamID) end)
 			sm:AddOption('На Вторую админ базу', function() RunConsoleCommand('sgs', 'adminzone2', steamID) end)
 		pmo:SetIcon(octolib.icons.silk16('bullet_go'))
 
@@ -121,8 +121,8 @@ hook.Add('dbg-admin.getActions', 'dbg-admingun', function(menu, ply, id)
 			end
 		pmo:SetIcon(octolib.icons.silk16('warning'))
 		menu:AddOption(L.admingun_admintell, function() octochat.say('/admintell', steamID) end):SetIcon(octolib.icons.silk16('textfield'))
-		menu:AddOption('Spectate', function() RunConsoleCommand('FSpectate', steamID) end):SetIcon(octolib.icons.silk16('eye'))
-		menu:AddOption('Watchlist', function() RunConsoleCommand('sg', 'watch', steamID) end):SetIcon(octolib.icons.silk16('edit_recipient_list'))
+		menu:AddOption('Следить', function() RunConsoleCommand('FSpectate', steamID) end):SetIcon(octolib.icons.silk16('eye'))
+		menu:AddOption('Система Предупреждений', function() RunConsoleCommand('sg', 'watch', steamID) end):SetIcon(octolib.icons.silk16('edit_recipient_list'))
 
 		local sm, pmo = menu:AddSubMenu('Запретить игру...')
 
