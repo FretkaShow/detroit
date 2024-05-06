@@ -56,8 +56,3 @@ octoinv.addShopItem('bp_spring', { cat = 'machinebp', price = 15 })
 octoinv.addShopItem('bp_pulley', { cat = 'machinebp', price = 15 })
 octoinv.addShopItem('bp_piston', { cat = 'machinebp', price = 15 })
 octoinv.addShopItem('bp_bulb', { cat = 'machinebp', price = 15 })
-
-octoinv.addShopItem('ingot_silver', { cat = 'ore_done', price = 200 })
-octoinv.addShopItem('gunpowder', { cat = 'ore_done', price = 450 })
-octoinv.addShopItem('ingot_iron', { cat = 'ore_done', price = 200 })
-octoinv.addShopItem('ingot_gold', { cat = 'ore_done', price = 900 })
