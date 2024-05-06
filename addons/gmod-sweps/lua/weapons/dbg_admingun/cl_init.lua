@@ -140,13 +140,13 @@ hook.Add('dbg-admin.getActions', 'dbg-admingun', function(menu, ply, id)
 
 		pmo:SetIcon(octolib.icons.silk16('delete'))
 
-		menu:AddOption('Kick', function()
+		menu:AddOption('Кикнуть', function()
 			Derma_StringRequest(L.reason_kick,L.reason_kick_hint, '', function(s)
 				RunConsoleCommand('sg', 'kick', steamID, s)
 			end, function() end, L.ok, L.cancel)
 		end):SetIcon(octolib.icons.silk16('delete'))
 
-		menu:AddOption('Ban', function()
+		menu:AddOption('БАН НАХУЙ!', function()
 			Derma_StringRequest(L.length_ban, L.length_ban_hint, '', function(s1)
 				Derma_StringRequest(L.reason_ban, L.reason_ban_hint, '', function(s2)
 					RunConsoleCommand('sg', 'ban', steamID, s1, s2)
