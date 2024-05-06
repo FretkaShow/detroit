@@ -338,13 +338,13 @@ serverguard.command:Add(command)
 local command = {}
 
 command.help        = 'Телепорт в админ зону';
-command.command     = 'tpadminzone';
+command.command     = 'adminzone';
 command.arguments   = {"player"};
 command.permissions = 'Goto';
 
 local maps = {
 	truenorth = Vector(-11643.262695, 2303.640625, 7746.319336),
-	evocity = Vector(-7678.922363, -7723.076172, 577.938049),
+	evocity = Vector(-7670.219727, -7684.229492, 520.031250),
 	eastcoast = Vector(-3508.420166, 2497.798584, -1175.5),
 	riverden = Vector(-15946, 15915, 6840),
 	unioncity = Vector(1329.230469, 8806.670898, 4418.193848),
@@ -360,10 +360,14 @@ function command:OnPlayerExecute(ply, target, arguments)
 	end
 
 	return true;
-end;
+end
 
-command.help        = 'Телепорт в Вторую админ зону';
-command.command     = 'adminroom2';
+serverguard.command:Add(command);
+
+local command = {}
+
+command.help        = 'Телепорт в другую админ зону';
+command.command     = 'adminzone2';
 command.arguments   = {"player"};
 command.permissions = 'Goto';
 
@@ -381,7 +385,7 @@ function command:OnPlayerExecute(ply, target, arguments)
 	end
 
 	return true;
-end;
+end
 
 serverguard.command:Add(command);
 

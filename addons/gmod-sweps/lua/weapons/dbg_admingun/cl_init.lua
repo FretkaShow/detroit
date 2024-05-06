@@ -90,7 +90,7 @@ hook.Add('dbg-admin.getActions', 'dbg-admingun', function(menu, ply, id)
 			sm:AddOption('К нему', function() RunConsoleCommand('sgs', 'goto', steamID) end)
 			sm:AddOption('К себе', function() RunConsoleCommand('sgs', 'bring', steamID) end)
 			sm:AddOption('Вернуть', function() RunConsoleCommand('sgs', 'return', steamID) end)
-			sm:AddOption('На админ базу', function() RunConsoleCommand('sgs', 'tpadminzone', steamID) end)
+			sm:AddOption('На админ базу', function() RunConsoleCommand('sgs', 'adminzone', steamID) end)
 			sm:AddOption('На Вторую админ базу', function() RunConsoleCommand('sgs', 'adminzone2', steamID) end)
 		pmo:SetIcon(octolib.icons.silk16('bullet_go'))
 
