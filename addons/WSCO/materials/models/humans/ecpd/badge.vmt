@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	$basetexture "models/humans/dbgpd/badge"
+	$bumpmap "models/humans/dbgpd/badge"
+
+	$alphatest 1
+	$nocull 1
+}

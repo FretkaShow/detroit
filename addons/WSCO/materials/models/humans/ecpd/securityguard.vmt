@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/humans/dbgpd/Securityguard"
+	"$bumpmap" "models/humans/dbgpd/Securityguard_n"
+
+	"$translucent" 1
+	"$model" 1
+	"$nocull" 0
+	"$alphatest" 1
+}

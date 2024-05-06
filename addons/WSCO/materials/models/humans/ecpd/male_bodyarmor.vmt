@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\humans/ecpd/male_bodyarmor"
+	"$bumpmap" "models\humans/ecpd/male_bodyarmor_bump"
+	"$alphatest" "1"
+	"$halflambert" "1"
+}

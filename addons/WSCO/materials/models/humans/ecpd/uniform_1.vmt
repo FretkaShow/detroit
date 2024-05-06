@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitTexture
+	"$basetexture" "models/humans/dbgpd/uniform_1"
+	"$bumpmap" "models/humans/dbgpd/uniform_n"
+	"$alphatest" "1"
+	"$halflambert" 1
+}

@@ -1,0 +1,5 @@
+SDK_VertexLitGeneric
+{
+	// Original shader: VertexLitMaskedEnvMappedTexture
+	"$basetexture" "models/humans/male/group85jacket/odessa_sheet"
+}
