@@ -94,7 +94,6 @@ function SWEP:CalcView(ply, pos, ang, fov)
 	local att = ply:GetAttachment(attID)
 	local tgtPos, tgtAng = LocalToWorld(self.AimPos, self.AimAng, att.Pos, att.Ang)
 	view.origin = LerpVector(easedProgress, view.origin, tgtPos)
-	view.angles = LerpAngle(easedProgress, view.angles, tgtAng) + dbgView.lookOff
 	view.znear = 1.5
 
 	return view
