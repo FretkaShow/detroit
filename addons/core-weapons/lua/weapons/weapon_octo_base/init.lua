@@ -94,7 +94,6 @@ function SWEP:Think()
 		local tr = util.TraceLine({
 			start = trStart,
 			endpos = trEnd,
-			filter = function(ent)
 				if not ent:IsPlayer() then return true end
 				return ent ~= ply and not ent:IsGhost()
 			end
